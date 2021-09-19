@@ -1,0 +1,5 @@
+"settings"
+{
+	"maxres"		"64"
+	"maxresmobile"		"128"
+}
