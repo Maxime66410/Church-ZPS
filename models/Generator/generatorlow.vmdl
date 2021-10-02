@@ -1,0 +1,126 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc29:version{3cec427c-1b0e-4d48-a90a-0436f33a6041} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "iron.vmat"
+								to = "models/generator/materials/generatoriron.vmat"
+							},
+							{
+								from = "tire.vmat"
+								to = "models/generator/materials/generatortile.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = ""
+						surface_prop = "metal"
+						collision_prop = "default"
+						origin = [ -1.251653, 5.872472, 26.556473 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 49.233837, 20.821669, 24.431911 ]
+					},
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = ""
+						surface_prop = "metal"
+						collision_prop = "default"
+						origin = [ -0.589771, 18.855925, 10.23647 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 22.195946, 6.076623, 19.782198 ]
+					},
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = ""
+						surface_prop = "metal"
+						collision_prop = "default"
+						origin = [ -0.589771, -7.02355, 10.23647 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 22.195946, 6.076623, 19.782198 ]
+					},
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = ""
+						surface_prop = "metal"
+						collision_prop = "default"
+						origin = [ 25.976379, 5.970837, 25.303249 ]
+						angles = [ 0.0, 90.0, 0.0 ]
+						dimensions = [ 21.365002, 6.076623, 18.07679 ]
+					},
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = ""
+						surface_prop = "metal"
+						collision_prop = "default"
+						origin = [ 31.53598, 5.970837, 15.000848 ]
+						angles = [ 0.0, 90.0, 0.0 ]
+						dimensions = [ 21.365002, 17.195827, 1.958158 ]
+					},
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = ""
+						surface_prop = "metal"
+						collision_prop = "default"
+						origin = [ 49.889473, 5.890693, 15.000848 ]
+						angles = [ 0.0, 90.0, 0.0 ]
+						dimensions = [ 2.9763, 22.621155, 1.958158 ]
+					},
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = ""
+						surface_prop = "metal"
+						collision_prop = "default"
+						origin = [ 47.500172, 7.102916, 14.004026 ]
+						angles = [ 0.0, 90.0, 90.0 ]
+						dimensions = [ 2.441977, 27.799627, 1.958158 ]
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						filename = "models/Generator/GeneratorLow.fbx"
+						import_translation = [ 0.0, 0.0, 240.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 0.038
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = ""
+	}
+}
