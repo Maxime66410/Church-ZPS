@@ -380,8 +380,7 @@
 						game_class = "prop_data"
 						game_keys = 
 						{
-							base = ""
-							allowstatic = false
+							allowstatic = true
 							bakelighting = true
 							spawn_motion_disabled = false
 							health = 800.0
